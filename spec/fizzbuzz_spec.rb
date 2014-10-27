@@ -39,3 +39,31 @@ describe "Fizzbuzz" do
 	end
   
 end
+
+=begin
+Note: to eq is to check for identicality, to be is to test for
+being the same object
+=end
+
+describe "How Fizzbuzz should respond." do
+	context "It should return" do
+
+		it "Fizz: when number is divisible by three" do
+			expect(fizzbuzz_says(3)).to eq "Fizz"
+		end
+
+		it "Buzz: when number is divisible by five" do
+			expect(fizzbuzz_says(5)).to eq "Buzz"
+		end
+
+		it "Fizzbuzz: when number is divisible by fifteen" do
+			expect(fizzbuzz_says(15)).to eq "Fizzbuzz!"
+		end
+
+
+	end
+
+end
+
+
+
