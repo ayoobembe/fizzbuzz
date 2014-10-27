@@ -6,6 +6,9 @@ def is_divisible_by_five?(number)
 	is_divisible?(number, 5)
 end
 
+def is_divisible_by_fifteen?(number)
+	is_divisible?(number, 15)
+end
 
 
 

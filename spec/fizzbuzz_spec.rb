@@ -25,6 +25,17 @@ describe "Fizzbuzz" do
 		end
 
 
+		#Test cases for method: is_divisible_by_fifteen?(number)
+		#Note: purpose of test is to check if divisible by both 5 and 3
+		it "is divisible by fifteen" do
+			expect(is_divisible_by_fifteen?(15)).to be true
+		end
+
+		it "is not divisible by fifteen" do
+			expect(is_divisible_by_fifteen?(1)).to be false
+		end
+
+
 	end
   
 end
