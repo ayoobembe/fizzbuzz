@@ -3,7 +3,7 @@ def is_divisible_by_three?(number)
 end
 
 def is_divisible_by_five?(number)
-	true
+	is_divisible?(number, 5)
 end
 
 
